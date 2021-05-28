@@ -1,19 +1,43 @@
 package day47_constarctor;
 
 public class Address {
-
-    private  String street;
+    private String street;
     private String city;
     private String state;
-    private String zipcode;
-    private String country;
+    private String zipCode;
+    private String country = "USA";
+    //constructor method- automatically called
+    public Address() {
+        System.out.println("Address constructor");
+        street = "123 unknown st";
+        city = "Unknown";
+        state = "Unknown";
+        zipCode = "00000";
+    }
+    //second constructor, overloaded constructor -> provides shortcut to initialize variables
+    //in same statement: ex: Address ad = new Address("123 java st", "Boston", "MA", "43213");
+    public Address(String street, String city, String state, String zipCode) {
+        setStreet(street);//reuse the code in the setter method
+        this.city = city;
+        this.state = state;
+        this.zipCode = zipCode;
+    }
+
+    public String toString() {
+        return street + ", " + city + ", " + state + " " + zipCode;
+    }
 
     public String getStreet() {
         return street;
     }
 
     public void setStreet(String street) {
-        this.street = street;
+        if(street.isEmpty() || street.length() > 50) {
+            System.out.println("ERROR: Invalid street");
+            //System.exit(0);
+        } else {
+            this.street = street;
+        }
     }
 
     public String getCity() {
@@ -32,12 +56,12 @@ public class Address {
         this.state = state;
     }
 
-    public String getZipcode() {
-        return zipcode;
+    public String getZipCode() {
+        return zipCode;
     }
 
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
     }
 
     public String getCountry() {
@@ -46,28 +70,5 @@ public class Address {
 
     public void setCountry(String country) {
         this.country = country;
-    }
-
-    @Override
-    public String toString() {
-        return "Address{" +
-                "street='" + street + '\'' +
-                ", city='" + city + '\'' +
-                ", zipcode='" + zipcode + '\'' +
-                ", country='" + country + '\'' +
-                '}';
-    }
-
-    public static void main(String[] args) {
-        Address info = new Address();
-        info.setStreet("555 5 Avenue");
-        info.setCity("New York");
-        info.setZipcode("10105");
-        info.setCountry("USA");
-        System.out.println(info.street+" "+info.city+" "+info.zipcode+" "+info.country);
-
-
-
-
     }
 }
