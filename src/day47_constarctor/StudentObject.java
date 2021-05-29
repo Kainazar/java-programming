@@ -8,5 +8,6 @@ public class StudentObject {
         Student st4 = new Student("Constantin"); // name param constructor | Constantin
         Student st5 = new Student(35); // his is 35 year old
         Student st6 = new Student("777 ocean ave ", "toyota"); // His address is 777 ocean ave He has a nice toyota
+
     }
 }
