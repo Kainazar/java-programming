@@ -9,5 +9,6 @@ public class CalculatorTest {
         // Calculator.multiply(2,4);      ***** Error it is NOT static ****
         Calculator calculator = new Calculator();
         calculator.multiply(5, 5);
+
     }
 }
