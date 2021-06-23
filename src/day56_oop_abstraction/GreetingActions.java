@@ -9,5 +9,15 @@ public class GreetingActions {
         Greeting gt = new Mountain();
         gt.bye();
         gt.hi();
+
+        Japanese jp = new Japanese();
+        jp.hi();
+        jp.bye();
+
+        gt = new Japanese();
+        gt.hi();
+        gt.bye();
+
+
     }
 }

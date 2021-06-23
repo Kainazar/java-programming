@@ -1,4 +1,4 @@
-package day55_abstraction;
+package day55_abstraction_exercise_example.day55_abstraction;
 
 public abstract class Exercise {
 
