@@ -1,4 +1,6 @@
-package day56_oop_abstraction;
+package day56_oop_abstraction.transportation;
+
+import day56_oop_abstraction.greeties.Greeting;
 
 public class Tesla extends Transportation implements SelfDrivable, Greeting {
 
@@ -9,7 +11,7 @@ public class Tesla extends Transportation implements SelfDrivable, Greeting {
 
     @Override
     public void cost(int mile) {
-        System.out.println("Tesla costs " + (mile * 0.10) + " to drive " + mile + " miles");
+        System.out.println("Tesla costs " + (mile * 1.00) + " to drive " + mile + " miles");
     }
 
     @Override

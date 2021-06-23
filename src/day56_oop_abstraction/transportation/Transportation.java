@@ -1,4 +1,4 @@
-package day56_oop_abstraction;
+package day56_oop_abstraction.transportation;
 
 public abstract class Transportation {
     public abstract void transportPeople();
