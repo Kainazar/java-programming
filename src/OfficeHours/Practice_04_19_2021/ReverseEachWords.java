@@ -1,6 +1,6 @@
 package OfficeHours.Practice_04_19_2021;
 
-import day38_methods.StringUtils;
+import allDaysJava.day38_methods.StringUtils;
 
 class ReverseEachWord {
 
