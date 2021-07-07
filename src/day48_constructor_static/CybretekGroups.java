@@ -1,8 +1,6 @@
 package day48_constructor_static;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class CybretekGroups {
     public static void main(String[] args) {

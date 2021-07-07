@@ -1,7 +1,5 @@
 package day05_primitives_concatanation;
 
-import com.sun.tools.internal.ws.wsdl.document.soap.SOAPUse;
-
 public class Practice {
     public static void main(String [] args) {
 

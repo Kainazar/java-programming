@@ -12,7 +12,7 @@ public class IfWithoutFalse {
 String country = "USA";
        if (country.equals ("USA")){
            System.out.println("Washington DC is the capital");
-           System.out.println("White house is on Pennsilvenia ave ");
+           System.out.println("White house is on Pennsilvania ave ");
        }
         System.out.println("Welcome to " + country);
     }

@@ -1,13 +1,12 @@
 package day38_methods;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class MethodCallAnother {
     public static void main(String[] args) {
         start();
         count(1);
     }
-    public static void start(){
+    public static void
+    start(){
         System.out.println("Start");
         continues();
     }

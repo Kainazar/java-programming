@@ -1,7 +1,5 @@
 package day32_arrays_split;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 import java.util.Arrays;
 
 public class SentenceSplit {

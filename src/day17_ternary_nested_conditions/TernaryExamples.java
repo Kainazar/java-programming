@@ -1,7 +1,5 @@
 package day17_ternary_nested_conditions;
 
-import javax.lang.model.SourceVersion;
-
 //import java.util.Scanner;
 public class TernaryExamples {
     public static void main(String[] args) {

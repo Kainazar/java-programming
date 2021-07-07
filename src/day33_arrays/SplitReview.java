@@ -1,6 +1,5 @@
 package day33_arrays;
 
-import javax.lang.model.SourceVersion;
 import java.util.Arrays;
 
 public class SplitReview {

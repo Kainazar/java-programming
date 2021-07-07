@@ -1,7 +1,5 @@
 package day30_arrays;
 
-import com.sun.jmx.snmp.SnmpUnknownMsgProcModelException;
-
 public class ForLoopArray {
     public static void main(String[] args) {
         int[] data = {115, 2450, 310, 777, 50, 60, 750, 80, 120, 999};

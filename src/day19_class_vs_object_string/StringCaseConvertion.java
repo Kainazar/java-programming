@@ -1,11 +1,5 @@
 package day19_class_vs_object_string;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
-import javax.annotation.processing.SupportedSourceVersion;
-import javax.lang.model.SourceVersion;
-import java.util.Locale;
-
 public class StringCaseConvertion {
     public static void main(String[] args) {
         String word = "CyberTEK";

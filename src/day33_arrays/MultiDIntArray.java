@@ -1,5 +1,5 @@
 package day33_arrays;
-import java.util.*;
+
 public class MultiDIntArray {
     public static void main(String[] args) {
         int[][] nums2D = {

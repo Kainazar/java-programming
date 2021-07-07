@@ -1,7 +1,5 @@
 package day51_inheritance;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 public class EmployeeObjects {
 
 

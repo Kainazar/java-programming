@@ -1,7 +1,5 @@
 package day15_logicallops_switch_ternary;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 public class ORLogicalOperator {
     public static void main(String[] args) {
         System.out.println("true || true = " + (true || true));
