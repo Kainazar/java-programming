@@ -9,6 +9,8 @@ public class ThrowingException {
         String userNmae ="";
         if (userNmae.isEmpty()) {
             throw new RuntimeException("username can't be empty");
+
+
         }
 
     }
